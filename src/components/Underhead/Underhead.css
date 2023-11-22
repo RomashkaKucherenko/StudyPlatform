@@ -1,0 +1,16 @@
+.underheadContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    margin-bottom: 48px;
+}
+
+.topPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 36px;
+    padding-top: 36px;
+}
+

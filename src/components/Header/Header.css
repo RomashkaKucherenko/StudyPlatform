@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imageContainer {
+
+}
+            
+.buttonsContainer {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}            

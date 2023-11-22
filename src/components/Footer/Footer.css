@@ -1,0 +1,47 @@
+.footerContainer {
+    display: flex;
+}
+
+.footerLogoConteiner {
+    margin-right: 36px;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    height: 32px;
+    width: 250px;
+    gap: 12px;
+    padding-top: 32px;
+}
+
+.socials {
+    display: flex;
+    padding-top: 36px;
+    gap: 8px;
+}
+
+.tgpiText {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 300;
+    color: #0A142F;
+}
+
+.footerText {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 600;
+    color: #040070;
+    padding-top: 24px;
+    font-family: system-ui, 'Open Sans'
+}

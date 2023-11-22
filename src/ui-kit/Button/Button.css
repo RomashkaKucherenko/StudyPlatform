@@ -1,0 +1,12 @@
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9095EC;
+    border-radius: 6px;
+    font-family: system-ui,'Open Sans';
+    font-size: 24px;
+    font-weight: 300;
+    color: #040070;
+    background-color: #F6FBFF;
+}

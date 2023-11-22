@@ -1,0 +1,29 @@
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.firstRow {
+    font: system-ui,'Open Sans';
+    font-weight:600;
+    font-size:40px;
+    color: #040070;
+    letter-spacing: 11%;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.author {
+    font-family: system-ui,'Open Sans';
+    font-weight:600;
+    font-size:32px;
+    color: #040070;
+    letter-spacing: 11%;
+    margin-left: 8px;
+}
