@@ -1,16 +1,14 @@
-import Header from "./components/Header";
-import Underhead from "./components/Underhead";
-import Banks from "./components/Banks";
-import Footer from "./components/Footer";
+import MainPage from "./Pages/MainPage";
+import TasksBank from './Pages/TasksBank'
+import TheoryBank from './Pages/TheoryBank'
 import "./App.css";
 
 function App() {
     return (
         <div className="appContainer">
-            <Header />
-            <Underhead />
-            <Banks />
-            <Footer />
+            {/* <MainPage /> */}
+            <TasksBank/>
+            {/* <TheoryBank/> */}
         </div>
     );
 }

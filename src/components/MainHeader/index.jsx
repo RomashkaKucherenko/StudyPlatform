@@ -1,12 +1,12 @@
 import OGE from "../../assets/OGE";
 import Button from "../../ui-kit/Button";
 import tgpi from "../../assets/tgpi.svg";
-import "./Header.css";
+import "./MainHeader.css";
 
-const Header = () => {
+const MainHeader = () => {
     return (
         <div className="container">
-            <div className="imageContainer">
+            <div>
                 <OGE />
                 <img
                     src={tgpi}
@@ -22,4 +22,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default MainHeader;

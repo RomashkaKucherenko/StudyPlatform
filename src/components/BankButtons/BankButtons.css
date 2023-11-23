@@ -1,0 +1,4 @@
+.bankButtonsContainer {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,24 @@
+.theoryBankContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bankHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 115%;
+}
+
+.bankTheoryContent {
+    display: flex;
+    gap: 80px;
+}
+
+.bankTheoryRowsContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+
+}
