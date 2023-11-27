@@ -21,4 +21,4 @@ function RoboTop() {
   );
 }
 
-export default RoboTop;
+export default React.memo(RoboTop);

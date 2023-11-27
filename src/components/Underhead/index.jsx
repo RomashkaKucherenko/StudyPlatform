@@ -1,7 +1,7 @@
 import Quote from "../Quote";
 import RoboTop from "../../assets/RoboTop";
 import "./Underhead.css";
-import Button from "../../ui-kit/Button";
+import Button from "../../ui-kit/LinkButton";
 
 const Underhead = () => {
     return (

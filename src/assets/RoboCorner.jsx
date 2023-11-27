@@ -29,4 +29,4 @@ function RoboCorner() {
   );
 }
 
-export default RoboCorner;
+export default React.memo(RoboCorner);

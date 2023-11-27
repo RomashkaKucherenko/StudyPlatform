@@ -34,4 +34,4 @@ function RoboLogo() {
   );
 }
 
-export default RoboLogo;
+export default React.memo(RoboLogo);

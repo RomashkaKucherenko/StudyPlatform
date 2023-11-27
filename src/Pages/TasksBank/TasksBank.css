@@ -1,5 +1,5 @@
 .tasksBankContainer {
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -8,5 +8,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 115%;
+    width: 80%;
+}
+
+.tasksBankContent {
+    display: flex;
+    width: 900px;
+    gap: 80px;
 }

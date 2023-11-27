@@ -1,16 +1,20 @@
-import MainPage from "./Pages/MainPage";
-import TasksBank from './Pages/TasksBank'
-import TheoryBank from './Pages/TheoryBank'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainPage from "./pages/MainPage";
+import TaskBank from "./pages/TasksBank";
+import TheoryBank from "./pages/TheoryBank";
 import "./App.css";
 
-function App() {
+const App = () => {
     return (
-        <div className="appContainer">
-            {/* <MainPage /> */}
-            <TasksBank/>
-            {/* <TheoryBank/> */}
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<MainPage />} />
+                <Route path="/tasks" element={<TaskBank />} />
+                <Route path="/theory" element={<TheoryBank />} />
+            </Routes>
+        </BrowserRouter>
     );
-}
+};
 
 export default App;

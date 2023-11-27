@@ -1,5 +1,4 @@
 import OGE from "../../assets/OGE";
-import Button from "../../ui-kit/Button";
 import tgpi from "../../assets/tgpi.svg";
 import "./MainHeader.css";
 
@@ -15,8 +14,8 @@ const MainHeader = () => {
                 />
             </div>
             <div className="buttonsContainer">
-                <Button width={117} height={43} content={"Войти"} />
-                <Button width={117} height={43} content={"Telegram"} />
+                <button style={{width: 117, height:43}} className="buttonContainer" >Войти</button>
+                <button style={{width: 117, height:43}} className="buttonContainer">Telegram</button>
             </div>
         </div>
     );

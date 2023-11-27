@@ -19,4 +19,4 @@ function DownArrow() {
   );
 }
 
-export default DownArrow;
+export default React.memo(DownArrow);

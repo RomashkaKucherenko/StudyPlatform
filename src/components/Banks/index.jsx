@@ -1,35 +1,52 @@
-import Button from "../../ui-kit/Button";
+import Button from "../../ui-kit/LinkButton";
 import DownArrow from "../../assets/DownArrow";
 import "./Banks.css";
 
-const BankRow = ({ buttonText, spanText }) => {
+const text = [
+    "Темы, которые входят в перечень",
+    "Как устроен экзамен",
+    "Структура вариантов по темам и типам",
+];
+
+const BankRow = ({ spanText }) => {
     return (
         <div className="bankRow">
-            <Button width={234} height={58} content={buttonText} />
-            <div className="banksRow">
-                <DownArrow />
-                <span className="banksRowText">{spanText}</span>
-            </div>
+            <DownArrow />
+            <span className="banksRowText">{spanText}</span>
         </div>
     );
 };
 
 const Banks = () => {
-    const text = [
-        ["Банк заданий", "Темы, которые входят в перечень"],
-        ["Банк теории", "Как устроен экзамен"],
-        ["Решить вариант", "Структура вариантов по темам и типам"],
-    ];
     return (
         <div className="banksContainer">
             <span className="banksTitle">Что важно знать об экзамене?</span>
             <div className="banksContent">
-                {text.map((textArray) => (
-                    <BankRow
-                        buttonText={textArray[0]}
-                        spanText={textArray[1]}
+                <div className="bankButtons">
+                    <Button
+                        to={"/tasks"}
+                        width={234}
+                        height={58}
+                        content={"Банк заданий"}
                     />
-                ))}
+                    <Button
+                        to={"/theory"}
+                        width={234}
+                        height={58}
+                        content={"Банк теории"}
+                    />
+                    <Button
+                        to={"/"}
+                        width={234}
+                        height={58}
+                        content={"Решить вариант"}
+                    />
+                </div>
+                <div className="bankRows">
+                    {text.map((textArray) => (
+                        <BankRow spanText={textArray} key={text} />
+                    ))}
+                </div>
             </div>
         </div>
     );

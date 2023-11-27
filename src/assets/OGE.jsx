@@ -34,4 +34,4 @@ function OGE() {
   );
 }
 
-export default OGE;
+export default React.memo(OGE);

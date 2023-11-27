@@ -20,4 +20,4 @@ function YouTube() {
   );
 }
 
-export default YouTube;
+export default React.memo(YouTube);

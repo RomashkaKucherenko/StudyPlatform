@@ -18,4 +18,4 @@ function VK() {
   );
 }
 
-export default VK;
+export default React.memo(VK);

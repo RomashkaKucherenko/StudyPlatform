@@ -18,4 +18,4 @@ function TG() {
   );
 }
 
-export default TG;
+export default React.memo(TG);

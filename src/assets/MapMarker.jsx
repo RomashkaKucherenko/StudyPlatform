@@ -19,4 +19,4 @@ function MapMarker() {
   );
 }
 
-export default MapMarker
+export default React.memo(MapMarker)

@@ -2,18 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .bankHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 115%;
 }
 
 .bankTheoryContent {
     display: flex;
     gap: 80px;
+    width: 900px;
 }
 
 .bankTheoryRowsContainer {
