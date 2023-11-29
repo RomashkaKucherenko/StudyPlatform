@@ -6,22 +6,23 @@
 .findTitle {
     font-size: 24px;
     font-weight: 400;
-    font-family: system-ui, 'Open Sans';
+    font-family: system-ui, "Open Sans";
     margin-bottom: 16px;
 }
 
-.finder {
+.finderByNumber {
     height: 35px;
     display: flex;
     gap: 36px;
+    margin-bottom: 36px;
 }
 
-.finderInput {
+.finderByNumberInput {
     width: 227px;
     height: 30px;
     padding-left: 8px;
     border-radius: 6px;
-    border: 1px solid grey
+    border: 1px solid grey;
 }
 
 input::-webkit-outer-spin-button,
@@ -30,15 +31,27 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-
-.finderButton {
-    width: 197px; 
+.finderByNumberButton {
+    width: 197px;
     height: 35px;
-    border: 1px solid #9095EC;
-    background-color: #F6FBFF;
+    border: 1px solid #9095ec;
+    background-color: #f6fbff;
     color: #040070;
     font-size: 22px;
     font-weight: 400;
-    font-family: system-ui, 'Open Sans';
+    font-family: system-ui, "Open Sans";
     border-radius: 6px;
+}
+
+.finderByType {
+    display: flex;
+    gap: 16px;
+}
+
+.finderSelect {
+    width: 475px;
+    height: 35px;
+    padding-left: 8px;
+    border-radius: 6px;
+    border: 1px solid grey;
 }

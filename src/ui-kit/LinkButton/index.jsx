@@ -3,7 +3,7 @@ import "./LinkButton.css";
 
 const LinkButton = ({ width, height, content, to }) => {
     return (
-        <Link to={to} className="buttonContainer" style={{ width, height }}>
+        <Link  to={to} className="buttonContainer" style={{ width, height }}>
             {content}
         </Link>
     );

@@ -46,9 +46,7 @@ const TasksBank = () => {
                         content={"Решить вариант"}
                     />
                 </div>
-                <div>
-                    <TaskFinder />
-                </div>
+                <TaskFinder />
             </div>
         </div>
     );

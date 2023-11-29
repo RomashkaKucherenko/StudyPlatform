@@ -1,13 +1,24 @@
+import axios from "axios";
+import { useState } from "react";
 import RoboCorner from "../../assets/RoboCorner";
 import BankTheoryRow from "../../components/BankTheoryRow";
 import LinkButton from "../../ui-kit/LinkButton";
 
+
 import "./TheoryBank.css";
 
-import { themes } from "./mock";
 
 const TheoryBank = () => {
+    const [data, setData] = useState()
     const authtorized = false;
+
+    const getThemes = async() => {
+        const data = await (await axios.get(`http://localhost:3000/themes`)).data
+        setData(data)
+    }
+
+    getThemes()
+
     return (
         <div className="theoryBankContainer">
             <div className="bankHeader">
@@ -47,8 +58,8 @@ const TheoryBank = () => {
                     />
                 </div>
                 <div className="bankTheoryRowsContainer">
-                    {themes.map((theme) => (
-                        <BankTheoryRow content={theme} key={theme} />
+                    {data && data.map((content) => (
+                        <BankTheoryRow num={content.number} content={content.theme} key={content.theme} />
                     ))}
                 </div>
             </div>

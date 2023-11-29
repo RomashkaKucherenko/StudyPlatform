@@ -22,13 +22,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="socials">
-            <a href="https://vk.com/club223548230">
+            <a href="https://vk.com/club223548230" target="_blank">
               <VK />
             </a>
-            <a href="https://t.me/OGEMASTEROGE">
+            <a href="https://t.me/OGEMASTEROGE" target="_blank">
               <TG />
             </a>
-            <a href="https://www.youtube.com/@user-Sergei_Donskikh">
+            <a href="https://www.youtube.com/@OGE-Master" target="_blank">
               <YouTube />
             </a>
           </div>
