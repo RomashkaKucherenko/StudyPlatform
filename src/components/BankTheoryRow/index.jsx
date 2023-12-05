@@ -1,5 +1,8 @@
 import './BankTheoryRow.css'
 
+/**
+ * Строки тем в банке теории
+ */
 const BankTheoryRow = ({num,content}) => {
     return (
         <div className="bankTheoryRowContainer">

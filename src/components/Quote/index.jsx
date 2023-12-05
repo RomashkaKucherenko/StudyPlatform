@@ -1,5 +1,8 @@
 import "./Quote.css";
 
+/**
+ * Цитата на главной странице
+ */
 const Quote = () => {
     return (
         <div className="quoteContainer">

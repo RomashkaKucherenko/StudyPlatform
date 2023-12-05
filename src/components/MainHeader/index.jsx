@@ -2,6 +2,9 @@ import OGE from "../../assets/OGE";
 import tgpi from "../../assets/tgpi.svg";
 import "./MainHeader.css";
 
+/**
+ * Шапка на главной странице
+ */
 const MainHeader = () => {
     return (
         <div className="container">
@@ -14,8 +17,18 @@ const MainHeader = () => {
                 />
             </div>
             <div className="buttonsContainer">
-                <button style={{width: 117, height:43}} className="buttonContainer" >Войти</button>
-                <button style={{width: 117, height:43}} className="buttonContainer">Telegram</button>
+                <button
+                    style={{ width: 117, height: 43 }}
+                    className="buttonContainer">
+                    Войти
+                </button>
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://t.me/OGEMASTEROGE"
+                    className="telegramButton">
+                    Telegram
+                </a>
             </div>
         </div>
     );

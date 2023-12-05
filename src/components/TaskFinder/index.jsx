@@ -5,6 +5,9 @@ import axios from "axios";
 
 import "./TaskFinder.css";
 
+/**
+ * Компонент с поиском по типу и номеру задачи
+ */
 const TaskFinder = () => {
     const [inputValue, setInputValue] = useState("");
     // Состояние после поиска конкретной задачи

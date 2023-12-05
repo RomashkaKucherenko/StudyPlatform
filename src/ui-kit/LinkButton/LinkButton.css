@@ -2,13 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #9095EC;
+    border: 1px solid #9095ec;
     border-radius: 6px;
-    font-family: system-ui,'Open Sans';
     font-size: 24px;
     font-weight: 300;
     color: #040070;
-    background-color: #F6FBFF;
+    background-color: #f6fbff;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.buttonDisabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #B7C1D6;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #B7C1D6;
+    background-color: #f6fbff;
     margin-bottom: 16px;
     text-decoration: none;
 }

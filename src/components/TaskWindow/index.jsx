@@ -1,22 +1,35 @@
+import TaskContainer from "../TaskContainer";
 import "./TaskWindow.css";
 
-const TaskWindow = ({ task,taskModalIsOpen,setTaskModalIsOpen }) => {
+/**
+ * Компонент модального окна при выборе задачи по номеру
+ * @param task - объект задачи
+ * @param taskModalIsOpen - флаг модального окна
+ * @param setTaskModalIsOpen - функция изменения флага модального окна
+ */
+const TaskWindow = ({ task, taskModalIsOpen, setTaskModalIsOpen }) => {
     return (
         <div className="taskWindowContainer">
             <div className="taskWindowHeaderContainer">
                 <div className="taskWindowHeader">
                     <div className="taskWindowRow">
-                        Задания КИМ № {task.number}
+                        Задания КИМ № {task.numberTheme}
                     </div>
                     <div className="taskWindowRow">ОГЭ: {task.theme}</div>
-                    <div className="taskWindowRow">Всего задач: 30</div>
                 </div>
-                <button className="backButton" onClick={() => setTaskModalIsOpen(!taskModalIsOpen)}>Назад</button>
+                <button
+                    className="backButton"
+                    onClick={() => setTaskModalIsOpen(!taskModalIsOpen)}>
+                    Назад
+                </button>
             </div>
-            <div className="taskWindowContent">
-                <div className="taskWindowNumber">{task.id}</div>
-                <div className="taskWindowDescription">{task.description}</div>
-            </div>
+            <TaskContainer
+                id={task.id}
+                description={task.description}
+                decision={task.decision}
+                answer={task.answer}
+                video={task.video}
+            />
         </div>
     );
 };

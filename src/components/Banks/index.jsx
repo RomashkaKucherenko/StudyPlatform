@@ -8,6 +8,10 @@ const text = [
     "Структура вариантов по темам и типам",
 ];
 
+
+/**
+ * Строки в секции кнопок банков на главной странице
+ */
 const BankRow = ({ spanText }) => {
     return (
         <div className="bankRow">
@@ -17,6 +21,9 @@ const BankRow = ({ spanText }) => {
     );
 };
 
+/**
+ * Секция кнопок банков на главной странице
+ */
 const Banks = () => {
     return (
         <div className="banksContainer">

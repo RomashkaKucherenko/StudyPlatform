@@ -1,5 +1,13 @@
+import TaskContainer from "../TaskContainer";
+
 import "./ThemeWindow.css";
 
+/**
+ * Компонент модального окна при выборе задачи по типу
+ * @param tasksByTheme - объект темы
+ * @param themeModalIsOpen - флаг модального окна
+ * @param setThemeModalIsOpen - функция изменения флага модального окна
+ */
 const ThemeWindow = ({
     tasksByTheme,
     themeModalIsOpen,
@@ -10,12 +18,12 @@ const ThemeWindow = ({
             <div className="themeWindowHeaderContainer">
                 <div className="themeWindowHeader">
                     <div className="themeWindowRow">
-                        Задания КИМ № {tasksByTheme[0].number}
+                        Задания КИМ № {tasksByTheme[0].numberTheme}
                     </div>
                     <div className="themeWindowRow">
                         ОГЭ: {tasksByTheme[0].theme}
                     </div>
-                    <div className="themeWindowRow">Всего задач: 30</div>
+                    <div className="themeWindowRow">Всего задач: {tasksByTheme.length}</div>
                 </div>
                 <button
                     className="backButton"
@@ -26,12 +34,14 @@ const ThemeWindow = ({
             <div className="themeWindowContent">
                 {tasksByTheme.map((task) => {
                     return (
-                        <div className="themeRow" key={task.id}>
-                            <div className="themeWindowNumber">{task.id}</div>
-                            <div className="taskWindowDescription">
-                                {task.description}
-                            </div>
-                        </div>
+                        <TaskContainer
+                            id={task.id}
+                            description={task.description}
+                            key={task.id}
+                            decision={task.decision}
+                            answer={task.answer}
+                            video={task.video}
+                        />
                     );
                 })}
             </div>

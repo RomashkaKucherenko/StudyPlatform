@@ -6,7 +6,6 @@
 }
 
 .firstRow {
-    font-family: system-ui,'Open Sans';
     font-weight:600;
     font-size:40px;
     color: #040070;
@@ -20,7 +19,6 @@
 }
 
 .author {
-    font-family: system-ui,'Open Sans';
     font-weight:600;
     font-size:32px;
     color: #040070;

@@ -1,5 +1,5 @@
 import MainHeader from "../../components/MainHeader";
-import Underhead from "../../components/Underhead";
+import MainPageBody from "../../components/MainPageBody";
 import Banks from "../../components/Banks";
 import Footer from "../../components/Footer";
 
@@ -9,7 +9,7 @@ const MainPage = () => {
     return (
         <div className="mainPageContainer">
             <MainHeader />
-            <Underhead />
+            <MainPageBody />
             <Banks />
             <Footer />
         </div>

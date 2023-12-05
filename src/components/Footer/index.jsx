@@ -6,6 +6,9 @@ import logo from "../../assets/logo.svg";
 
 import "./Footer.css";
 
+/**
+ * Низ на главной странице
+ */
 const Footer = () => {
   return (
     <div className="footerContainer">
@@ -22,13 +25,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="socials">
-            <a href="https://vk.com/club223548230" target="_blank">
+            <a href="https://vk.com/club223548230" target="_blank" rel="noreferrer">
               <VK />
             </a>
-            <a href="https://t.me/OGEMASTEROGE" target="_blank">
+            <a href="https://t.me/OGEMASTEROGE" target="_blank" rel="noreferrer">
               <TG />
             </a>
-            <a href="https://www.youtube.com/@OGE-Master" target="_blank">
+            <a href="https://www.youtube.com/@OGE-Master" target="_blank" rel="noreferrer">
               <YouTube />
             </a>
           </div>

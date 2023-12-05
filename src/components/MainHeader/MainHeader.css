@@ -8,3 +8,19 @@
     gap: 48px;
     align-items: center;
 }
+
+.telegramButton {
+    text-decoration: none;
+    width: 117px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9095ec;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #040070;
+    background-color: #f6fbff;
+    margin-bottom: 16px;
+}

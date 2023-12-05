@@ -1,0 +1,31 @@
+.MainPageBodyContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    margin-bottom: 48px;
+}
+
+.topPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 36px;
+    padding-top: 36px;
+}
+
+.taskOfDayButton {
+    width: 187px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9095ec;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #040070;
+    background-color: #f6fbff;
+    margin-bottom: 16px;
+    text-decoration: none;
+}

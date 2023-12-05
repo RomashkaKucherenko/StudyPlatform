@@ -6,7 +6,6 @@
 .findTitle {
     font-size: 24px;
     font-weight: 400;
-    font-family: system-ui, "Open Sans";
     margin-bottom: 16px;
 }
 
@@ -39,7 +38,6 @@ input::-webkit-inner-spin-button {
     color: #040070;
     font-size: 22px;
     font-weight: 400;
-    font-family: system-ui, "Open Sans";
     border-radius: 6px;
 }
 

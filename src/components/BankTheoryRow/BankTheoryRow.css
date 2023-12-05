@@ -10,7 +10,6 @@
 }
 
 .rowContent {
-    font-family: system-ui, "Open Sans";
     font-size: 16px;
     font-weight: 400;
 }
@@ -19,7 +18,6 @@
     display: flex;
     flex-direction: row;
     gap: 16px;
-    font-family: system-ui, "Open Sans";
     font-size: 16px;
     font-weight: 400;
     color: #040070;

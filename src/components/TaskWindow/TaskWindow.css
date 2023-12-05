@@ -1,12 +1,12 @@
 .taskWindowContainer {
     position: absolute;
     width: 100vw;
-    height: 100vh;
     left: 0;
     top: 0;
     background-color: white;
     padding-top: 24px;
     padding-left: 64px;
+    height: 100%;
 }
 
 .taskWindowHeaderContainer {
@@ -30,7 +30,6 @@
     width: 117px;
     height: 40px;
     border-radius: 6px;
-    font-family: system-ui, "Open Sans";
     font-size: 24px;
     font-weight: 300;
     margin-left: 400px;
@@ -40,31 +39,5 @@
     font-size: 36px;
     font-weight: 400;
     color: #040070;
-    font-family: system-ui, "Open Sans";
 }
 
-.taskWindowContent {
-    display: flex;
-    gap: 16px;
-}
-
-.taskWindowNumber {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: system-ui, "Open Sans";
-    width: 50px;
-    height: 50px;
-    font-size: 32px;
-    font-weight: 600;
-    border: 1px solid black;
-}
-
-.taskWindowDescription {
-    display: flex;
-    width: 1075px;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: system-ui, "Open Sans";
-    flex-wrap: wrap;
-}
