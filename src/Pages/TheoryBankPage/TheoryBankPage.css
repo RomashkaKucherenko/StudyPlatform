@@ -1,18 +1,24 @@
-.tasksBankContainer {
+.theoryBankContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .bankHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    padding: 16px;
+    padding-right: 64px;
 }
 
-.tasksBankContent {
+.bankTheoryContent {
     display: flex;
     width: 900px;
     gap: 80px;
+    margin-left: 160px;
+}
+
+.bankTheoryRowsContainer {
+    display: flex;
+    flex-direction: column;
 }

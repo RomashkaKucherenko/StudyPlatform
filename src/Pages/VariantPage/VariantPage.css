@@ -1,0 +1,18 @@
+.variantPageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.variantsPageBody {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    gap: 80px;
+    margin-left: 160px;
+}
+
+.variantsPageContent {
+    display: flex;
+    justify-content: center;
+    margin-left: 72px;
+}

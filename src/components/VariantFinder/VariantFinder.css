@@ -1,0 +1,54 @@
+.variantFinderContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.variantFinderTitle {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.variantFinder {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.variantFinderInput {
+    width: 227px;
+    height: 30px;
+    padding-left: 8px;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+
+.variantFinderShowButton {
+    width: 197px;
+    height: 35px;
+    border: 1px solid #9095ec;
+    background-color: #f6fbff;
+    color: #040070;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.variantFinderButtons {
+    display: flex;
+    gap: 16px;
+}
+
+.variantFinderButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #3b3679;
+    background-color: #f6fbff;
+    color: #909090;
+    font-size: 14px;
+    font-weight: 600;
+    width: 140px;
+    height: 30px;
+}

@@ -43,7 +43,7 @@ const Banks = () => {
                         content={"Банк теории"}
                     />
                     <Button
-                        to={"/"}
+                        to={"/variants"}
                         width={234}
                         height={58}
                         content={"Решить вариант"}

@@ -1,0 +1,22 @@
+.variantsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 700px;
+}
+
+.variantContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #9095ec;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #040070;
+    background-color: #f6fbff;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
