@@ -1,5 +1,6 @@
-import Button from "../../ui-kit/LinkButton";
+import LinkButton from "../../ui-kit/LinkButton";
 import DownArrow from "../../assets/DownArrow";
+
 import "./Banks.css";
 
 const text = [
@@ -30,19 +31,19 @@ const Banks = () => {
             <span className="banksTitle">Что важно знать об экзамене?</span>
             <div className="banksContent">
                 <div className="bankButtons">
-                    <Button
+                    <LinkButton
                         to={"/tasks"}
                         width={234}
                         height={58}
                         content={"Банк заданий"}
                     />
-                    <Button
+                    <LinkButton
                         to={"/theory"}
                         width={234}
                         height={58}
                         content={"Банк теории"}
                     />
-                    <Button
+                    <LinkButton
                         to={"/variants"}
                         width={234}
                         height={58}
